@@ -62,11 +62,11 @@ class _BottomTabbarExampleState extends State<BottomTabbarExample>
     );
   }
 
-  // @override
-  // void dispose() {
-  //   _tabController?.dispose();
-  //   super.dispose();
-  // }
+  @override
+  void dispose() {
+    _tabController?.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
